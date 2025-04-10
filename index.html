@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Images</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <h1>Image Search Engine</h1>
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="Enter a keyword...">
+        <button id="btn">Search</button>
+    </form>
+
+    <div id="image-container">
+        <img src="img_4.jpg" alt="">
+        <img src="img_4.jpg" alt="">
+        <img src="img_4.jpg" alt="">
+        <img src="img_4.jpg" alt="">
+        <img src="img_4.jpg" alt="">
+    </div>
+
+    <div class="alert">
+        <h2>Alert!</h2>
+        <h3>Enter image name</h3>
+        <button id="ok">ok</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
